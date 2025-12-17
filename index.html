@@ -148,6 +148,20 @@
             <li>Cached game progress</li>
         </ul>
 
+        <h3><span class="emoji">🏆</span> Leaderboard Details</h3>
+        <p><strong>Anonymous Player ID:</strong> When you first play Mavera, Unity Authentication automatically creates
+            a random, anonymous Player ID (e.g., "abc123xyz"). This ID is not linked to your name, email, or any
+            personal information. It is used solely to track your game progress across sessions.</p>
+        <p><strong>Username/Nickname:</strong> You can optionally choose a display name (nickname) that appears on the
+            leaderboard. This name is chosen by you and should not contain personal information. If you don't choose a
+            name, a randomly generated name will be displayed.</p>
+        <p><strong>Avatar Selection:</strong> You can select an avatar icon from predefined options. These avatars are
+            provided by the app and do not involve uploading personal photos.</p>
+        <p><strong>Leaderboard Privacy:</strong> Your score is automatically submitted to the global leaderboard when
+            you complete puzzles. Currently, there is no option to hide from the leaderboard while keeping your progress
+            synced. If you wish to be removed from the leaderboard, use the "Delete My Data" feature, which will reset
+            your score to zero and mark your entry as deleted.</p>
+
         <h3><span class="emoji">📝</span> App Permissions</h3>
         <p>To function properly, Mavera requires the following permissions:</p>
         <ul>
@@ -176,7 +190,7 @@
             Advertising ID:</p>
         <ul>
             <li><strong>Android:</strong> Settings → Google → Ads → Reset advertising ID</li>
-            <li><strong>iOS:</strong> Settings → Privacy → Apple Advertising → Reset Identifier</li>
+            <!-- <li><strong>iOS:</strong> Settings → Privacy → Apple Advertising → Reset Identifier</li> -->
         </ul>
 
         <h2><span class="emoji">👨‍👩‍👧‍👦</span> Children's Privacy (COPPA Compliance)</h2>
@@ -189,22 +203,58 @@
             <li>Not requiring user accounts or registration</li>
         </ul>
 
+        <h3><span class="emoji">👨‍👩‍👧</span> Parental Controls & Age Verification</h3>
+        <p><strong>Age Verification:</strong> Mavera does not implement age verification or age gates. Since no personal
+            information is collected and ads are child-safe by default, explicit age verification is not required.</p>
+        <p><strong>Parental Consent:</strong> Because we do not collect personally identifiable information from any
+            user
+            (including children), verifiable parental consent is not required under COPPA. However, parents or guardians
+            can use the "Delete My Data" feature at any time to remove their child's anonymous game progress.</p>
+        <p><strong>Parental Supervision:</strong> We encourage parents to supervise their children's app usage. The game
+            contains no in-app purchases, no social features, and no external links to websites.</p>
+
         <h2><span class="emoji">🔐</span> Data Security</h2>
-        <p>Since we do not collect or transmit personal data, there is no user data at risk. All game preferences are
-            stored locally on your device.</p>
+        <p>Your game data is transmitted securely to Unity Gaming Services using industry-standard encryption
+            (HTTPS/TLS).
+            While we do not collect personally identifiable information, your anonymous game progress and scores are
+            stored on Unity's secure servers. Local preferences are stored on your device.</p>
+
+        <p><strong>Unity Analytics:</strong> We have disabled Unity Analytics in our application. No gameplay behavior,
+            session duration, or user interaction data is collected or transmitted.</p>
 
         <h3><span class="emoji">🗑️</span> Data Deletion</h3>
-        <p>You can delete all your data directly from within the app:</p>
+        <p>You have multiple options to delete your data:</p>
+
+        <p><strong>Option 1: In-App Deletion (Recommended)</strong></p>
         <ul>
-            <li><strong>In-App:</strong> Settings → "Delete My Data" button</li>
+            <li>Open the app → Settings → "Delete My Data" button</li>
         </ul>
-        <p>This will permanently delete:</p>
+
+        <p><strong>Option 2: Email Request</strong></p>
+        <ul>
+            <li>If you cannot access the app (e.g., lost device), you can request data deletion by emailing us at
+                <a href="mailto:sefaveske.apps@gmail.com">sefaveske.apps@gmail.com</a> with the subject "Data Deletion
+                Request".
+            </li>
+            <li>Please include your <strong>Player ID</strong> (found at the bottom of the Settings menu in the app)
+                so we can locate your anonymous data. Without this ID, we cannot identify your data to delete it.</li>
+            <li>We will process your request within 30 days.</li>
+        </ul>
+
+        <p>Data deletion will permanently remove:</p>
         <ul>
             <li>All cloud-stored game progress and scores</li>
-            <li>Leaderboard entries</li>
             <li>Avatar and settings preferences</li>
             <li>All locally cached data</li>
+            <li>Your Unity Authentication account</li>
         </ul>
+
+        <div class="highlight">
+            <strong>Leaderboard Entries:</strong> When you delete your account, your leaderboard score is reset to zero
+            and marked as deleted. The entry may remain visible in the leaderboard but is no longer linked to any
+            identifiable user account. This ensures complete anonymization of your previous rankings.
+        </div>
+
         <p>After deletion, you will be signed out and can start fresh if desired.</p>
 
         <h2><span class="emoji">🌍</span> Third-Party Services</h2>
@@ -223,15 +273,17 @@
         <h2><span class="emoji">⚖️</span> User Rights (GDPR & CCPA)</h2>
         <p>For users in the European Union, European Economic Area, United Kingdom, and California:</p>
         <ul>
-            <li><strong>Right to Access:</strong> Since we do not collect personal data, there is no data to access.
+            <li><strong>Right to Access:</strong> You can view your high scores, game progress, and leaderboard rankings
+                directly within the game interface.</li>
+            <li><strong>Right to Deletion:</strong> You can delete all your data using the in-app "Delete My Data"
+                button
+                or by contacting us via email at <a href="mailto:sefaveske.apps@gmail.com">sefaveske.apps@gmail.com</a>.
             </li>
-            <li><strong>Right to Deletion:</strong> No personal data is stored; uninstalling the app removes all local
-                data.</li>
-            <li><strong>Right to Portability:</strong> Not applicable as no personal data is collected.</li>
+            <li><strong>Right to Portability:</strong> Game progress data can be viewed in-app but export functionality
+                is not currently available.</li>
             <li><strong>Right to Object:</strong> Personalized ads are already disabled for child-directed content.</li>
         </ul>
-        <p>Although we do not collect personal data, users maintain their rights to transparency under applicable laws.
-        </p>
+        <p>We are committed to transparency and will respond to any data-related inquiries within 30 days.</p>
 
         <h2><span class="emoji">🌐</span> International Data Transfer</h2>
         <p>We do not transfer any personal data internationally. Third-party services (Google AdMob, Unity) may process
@@ -247,8 +299,26 @@
 
         <h2><span class="emoji">✏️</span> Changes to This Policy</h2>
         <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an
-            updated "Last updated" date. We encourage you to periodically review this page for the latest information.
-        </p>
+            updated "Last updated" date.</p>
+        <p><strong>How You Will Be Notified:</strong> Since we do not collect email addresses or send push
+            notifications,
+            changes to this policy will be communicated through:</p>
+        <ul>
+            <li>Updated "Last updated" date on this page</li>
+            <li>In-app notification banner for significant changes (when applicable)</li>
+            <li>App store update notes (for major policy changes)</li>
+        </ul>
+        <p>We encourage you to periodically review this page for the latest information.</p>
+
+        <h2><span class="emoji">🏢</span> Business Transfer</h2>
+        <p>In the event that Mavera is sold, merged, or transferred to another company:</p>
+        <ul>
+            <li>Your anonymous game data may be transferred to the new owner</li>
+            <li>The new owner will be bound by this Privacy Policy until a new policy is published</li>
+            <li>You will be notified of any ownership change through app store update notes</li>
+            <li>You can delete your data at any time before or after such transfer using the in-app deletion feature
+            </li>
+        </ul>
 
         <h2><span class="emoji">⚠️</span> Complaints & Disputes</h2>
         <p>If you have concerns about our privacy practices, please contact us first. You also have the right to lodge a
